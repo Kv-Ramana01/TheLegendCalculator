@@ -17,38 +17,47 @@
                         
                     </div>
                     <div class="display-input">
-
+                        0
                     </div>
                 </div>
 
                 <div class="utilities">
                     <div class="left-section">
-                        <button class="AC"><p class="txt">AC</p></button>
-                        <button class="division"><p class="txt">/</p></button>
-                        <button class = "multiplication"><p class="txt">x</p></button>
-                        <button class ="seven">7</button>
-                        <button class="eight">8</button>
-                        <button class="nine">9</button>
-                        <button class="four">4</button>
-                        <button class="five">5</button>
-                        <button class="six">6</button>
-                        <button class="one">1</button>
-                        <button class="two">2</button>
-                        <button class="three">3</button>
-                        <button class="bottom-left">.</button>
-                        <button class="zero">0</button>
-                        <button class="percentile">%</button>
+                        <button class="AC" data-value="clear" data-type="clear">
+                            <p class="txt">AC</p>
+                        </button>
+                        <button class="division" data-value="/" data-type="operator">
+                            <p class="txt">/</p>
+                        </button>
+                        <button class="multiplication" data-value="*" data-type="operator">
+                            <p class="txt">x</p>
+                        </button>
+                        <button class="seven" data-value="7" data-type="number">7</button>
+                        <button class="eight" data-value="8" data-type="number">8</button>
+                        <button class="nine" data-value="9" data-type="number">9</button>
+                        <button class="four" data-value="4" data-type="number">4</button>
+                        <button class="five" data-value="5" data-type="number">5</button>
+                        <button class="six" data-value="6" data-type="number">6</button>
+                        <button class="one" data-value="1" data-type="number">1</button>
+                        <button class="two" data-value="2" data-type="number">2</button>
+                        <button class="three" data-value="3" data-type="number">3</button>
+                        <button class="bottom-left" data-value="." data-type="decimal">.</button>
+                        <button class="zero" data-value="0" data-type="number">0</button>
+                        <button class="percentile" data-value="%" data-type="operator">%</button>
                     </div>
                     <div class="right-section">
-                        <button class="back">B</button>
-                        <button class="minus">-</button>
-                        <button class="plus">+</button>
-                        <button id="equal" class = "bottom-right">=</button>
+                        <button class="back" data-value="B" data-type="backspace">B</button>
+                        <button class="minus" data-value="-" data-type="operator">-</button>
+                        <button class="plus" data-value="+" data-type="operator">+</button>
+                        <button id="equal" data-value="=" class="bottom-right" data-type="equals">=</button>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+    </div>
+
+    <script src="javascript/script.js"></script>
 </body>
 
 </html>
