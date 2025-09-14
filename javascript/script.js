@@ -160,3 +160,28 @@ window.addEventListener('keydown', (event) => {
         document.querySelector('.AC').click();
     }
 });
+
+
+// this is for future me
+
+// the cleverest part of the code:
+
+// JavaScript
+
+// const button = document.querySelector(`button[data-value="${event.key}"]`);
+// event.key: This property gives us the exact value of the key pressed, like "7", "+", ".", or "/".
+
+// document.querySelector(...): This is the standard way to find an element on the page.
+
+// button[data-value="..."]: This is a CSS attribute selector. It’s a powerful way to find elements. It means: "Find a <button> element that has an attribute named data-value equal to the value inside the quotes."
+
+// So, when you press the 8 key on your keyboard:
+
+// event.key becomes the string "8".
+
+// The code builds the selector: button[data-value="8"].
+
+// querySelector then searches your HTML and finds your <button class="eight" data-value="8" ...>.
+
+// That button element is stored in the button variable.
+
